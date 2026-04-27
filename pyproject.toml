@@ -1,0 +1,10 @@
+[project]
+name = "arithmetic-01"
+version = "0.1.0"
+description = "Author: 이현진 / Reviewer: 이현진"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-v"
