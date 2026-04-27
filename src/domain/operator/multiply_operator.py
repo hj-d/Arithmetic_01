@@ -1,3 +1,4 @@
+from src.domain.arithmetic import multiply
 from src.domain.operator.operator import Operator
 
 
@@ -7,4 +8,4 @@ class MultiplyOperator(Operator):
         return "*"
 
     def apply(self, left: float, right: float) -> float:
-        return left * right
+        return multiply(left, right)
